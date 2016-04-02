@@ -47,7 +47,7 @@ class Example extends React.Component {
         } else {
             return (
                 <div>
-                    <strong>Section <a style={{ textDecoration: 'underline', color: 'blue', cursor: 'pointer' }} onClick={this.popout}>(pop window out)</a></strong>
+                    <strong>Section <a style={{ textDecoration: 'underline', color: 'blue', cursor: 'pointer' }} onClick={this.popout}>(クリックするとウィンドウが開くよ！)</a></strong>
                     <div>Inline content</div>
                 </div>
             );
